@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "country": {
+      "title": "country",
+      "type": "string",
+      "description": "The ISO 3166-1 alpha-2 country code",
+      "minLength": 2,
+      "maxLength": 2,
+      "pattern": "^([A-Z]{2}|EU|AP)$"
+    }
+  }
+}

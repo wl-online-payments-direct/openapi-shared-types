@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "language": {
+      "title": "language",
+      "type": "string",
+      "description": "The BCP-47 language tag from IANA list",
+      "minLength": 2,
+      "maxLength": 3,
+      "pattern": "^([A-Z]{2,3})$"
+    }
+  }
+}

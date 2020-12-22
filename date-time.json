@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "expiration-date": {
+      "title": "expiration-date",
+      "type": "string",
+      "description": "Expiration date, only month and year. Commonly used in the industry for card expiration",
+      "pattern": "^[0-9]{4}-(0[1-9]|[1-2][0-9]|3(0|1))$"
+    }
+  }
+}
